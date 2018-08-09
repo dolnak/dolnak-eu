@@ -1,0 +1,59 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+/*
+  PANTONE Process Blue C
+  RGB 0 133 202
+  HEX/HTML 0085CA
+  CMYK 100 13 1 2
+*/
+
+.bg-color {
+  background-color: #0085ca;
+}
+
+.bg-image {
+  background-image: url("https://www.dolnak.eu/img/background-4k-300dpi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* TODO: REMOVE? NOT USED */
+.full-height {
+  min-height: 93vh;
+}
+
+.full-height-mb-zero {
+  min-height: 93vh;
+  margin-bottom: 0;
+}
+
+.half-height {
+  min-height: 46.5vh;
+}
+
+.half-height-mb-zero {
+  min-height: 46.5vh;
+  margin-bottom: 0;
+}
