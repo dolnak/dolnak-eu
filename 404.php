@@ -9,7 +9,7 @@ $p_lead = 'Požadovaný dokument nebol nájdený, ale v&nbsp;budúcnosti môže 
 
 $content = <<<MAIN
 
-<div class="jumbotron jumbotron-fluid bg-light border-bottom text-center">
+<div class="jumbotron jumbotron-fluid bg-light bg-image border-bottom text-center">
   <div class="container">
     <h1 class="display-4">$h1</h1>
     <p class="lead">$p_lead</p>
