@@ -9,15 +9,15 @@ $p_lead = '';
 
 $content = <<<MAIN
 
-<div class="jumbotron jumbotron-fluid bg-light border-bottom text-center">
+<div class="jumbotron jumbotron-fluid bg-light bg-image border-bottom text-center">
   <div class="container">
     <h1 class="display-4">$h1</h1>
     <p class="lead">$p_lead</p>
   </div>
 </div>
-<div class="container">
+<div class="container text-justify">
   <h2>Od roku 2009 po súčasnosť</h2>
-  <ul>
+  <ol>
     <li>Bezpečnosť VoIP</li>
     <li>Metódy synchronizácie presného systémového času v LAN</li>
     <li>Generátor paketov protokolu SIP v jazyku Perl</li>
@@ -57,7 +57,13 @@ $content = <<<MAIN
     <li>Implementácia SSL certifikátu doplnená o bezpečnostné hlavičky protokolov HTTP a HTTPS</li>
     <li>Redistribúcia medzi smerovacími doménami protokolov EIGRP a OSPF</li>
     <li>Technológie VPN sietí typu MPLS AToM v podnikovom prostredí</li>
-  </ul>
+  </ol>
+</div>
+<div class="container text-justify">
+  <p>
+    <strong>Mohli by vás zaujímať aj</strong>
+    <a href="https://www.dolnak.eu/vedene-bakalarske-prace/">vedené bakalárske práce</a>
+  </p>
 </div>
 
 MAIN;
