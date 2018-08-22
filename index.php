@@ -9,14 +9,73 @@ $p_lead = 'Školenia, audity, dizajn, implementácia, prevádzka a&nbsp;optimali
 
 $content = <<<MAIN
 
-<div class="jumbotron jumbotron-fluid bg-light bg-image border-bottom full-height-mb-zero d-flex align-items-center text-center">
+<div class="jumbotron jumbotron-fluid bg-color bg-image border-bottom full-height-mb-zero d-flex align-items-center text-center">
   <div class="container">
     <h1 class="display-4">$h1</h1>
     <p class="lead">$p_lead</p>
     <a class="btn btn-primary btn-lg" href="#kontakt" >Kontakt</a>
   </div>
 </div>
-<div id="kontakt" class="jumbotron jumbotron-fluid bg-white border-bottom half-height-mb-zero">
+<div class="jumbotron jumbotron-fluid bg-white border-bottom half-height-mb-zero">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 text-black-50 text-center">
+        <p class="display-1">
+          <i class="fas fa-certificate"></i>
+        </p>
+      </div>
+      <div class="col-sm-9">
+        <h2>Získané certifikáty</h2>
+        <p>
+          Som držiteľom a priebežne obnovuje viaceré odborné certifikáty v oblasti počítačových sietí a digitálneho marketingu. Ide o certifikáty známych spoločností
+          <a href="https://www.dolnak.eu/certifikaty/#cisco">Cisco</a>,
+          <a href="https://www.dolnak.eu/certifikaty/#mikrotik">MikroTik</a>,
+          <a href="https://www.dolnak.eu/certifikaty/#google">Google</a> a
+          <a href="https://www.dolnak.eu/certifikaty/#profiber">PROFiber</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid bg-light border-bottom half-height-mb-zero">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 text-black-50 text-center">
+        <p class="display-1">
+          <i class="fas fa-wrench"></i>
+        </p>
+      </div>
+      <div class="col-sm-9">
+        <h2>Osobné projekty</h2>
+        <p>
+          <a href="https://www.cisco-academy.sk/">Cisco Academy</a><br><br>
+          <a href="https://www.mikrotik-academy.sk/">MikroTik Academy</a><br>
+          <a href="https://www.youtube.com/channel/UCtJ0K_kCE4VgHGrJtU_tNEg">MikroTik Academy YouTube Channel</a><br><br>
+          <a href="https://www.ospf.sk/">Protokol Open Shortest Path First (OSPF) po slovensky</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron jumbotron-fluid bg-white border-bottom half-height-mb-zero">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 text-black-50 text-center">
+        <p class="display-1">
+          <i class="fas fa-graduation-cap"></i>
+        </p>
+      </div>
+      <div class="col-sm-9">
+        <h2>Akademické aktivity</h2>
+        <p>
+          <a href="https://www.dolnak.eu/vedene-bakalarske-prace/">Vedené bakalárske práce</a><br>
+          <a href="https://www.dolnak.eu/vedene-diplomove-prace/">Vedené diplomové práce</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="kontakt" class="jumbotron jumbotron-fluid bg-light border-bottom half-height">
   <div class="container">
     <h2>Kontaktné údaje</h2>
     <p>
@@ -36,21 +95,6 @@ $content = <<<MAIN
       <strong>DIČ:</strong> 2023861004 (nie sme platiteľmi DPH)<br><br>
       Okr. súd Žilina, odd. Sro, vl. č. 60074/L
 	</p>
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid bg-light border-bottom half-height">
-  <div class="container">
-    <h2>Moje projekty</h2>
-    <p>
-      Webové stránky podporovaných projektov
-      <br>
-      <a href="https://www.cisco-academy.sk/">Cisco Academy</a><br>
-      <a href="https://www.mikrotik-academy.sk/">MikroTik Academy</a><br>
-      <a href="https://www.youtube.com/channel/UCtJ0K_kCE4VgHGrJtU_tNEg">MikroTik Academy YouTube Channel</a><br>
-      <a href="https://www.ospf.sk/">Protokol Open Shortest Path First (OSPF) po slovensky</a><br><br>
-      <a href="https://www.dolnak.eu/vedene-bakalarske-prace/">Vedené bakalárske práce</a><br>
-      <a href="https://www.dolnak.eu/vedene-diplomove-prace/">Vedené diplomové práce</a>
-    </p>
   </div>
 </div>
 
