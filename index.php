@@ -27,7 +27,7 @@ $content = <<<MAIN
       <div class="col-sm-9">
         <h2>Získané certifikáty</h2>
         <p>
-          Som držiteľom a priebežne obnovuje viaceré odborné certifikáty v oblasti počítačových sietí a digitálneho marketingu. Ide o certifikáty známych spoločností
+          Som držiteľom a priebežne obnovujem viaceré odborné certifikáty v oblasti počítačových sietí a digitálneho marketingu. Ide o certifikáty známych spoločností
           <a href="https://www.dolnak.eu/certifikaty/#cisco">Cisco</a>,
           <a href="https://www.dolnak.eu/certifikaty/#mikrotik">MikroTik</a>,
           <a href="https://www.dolnak.eu/certifikaty/#google">Google</a> a
